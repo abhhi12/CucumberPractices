@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-17T17:36:48.613Z",
+        "line": 12,
+        "name": "billing amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2166800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on billing page",
+            "match": {
+              "location": "stepdefinitions.billingSteps.user_is_on_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters billing amount \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.billingSteps.user_enters_billing_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters tax amount \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.billingSteps.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 501900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "stepdefinitions.billingSteps.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5242500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it gives the final amount \"1010\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1010\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.billingSteps.it_gives_the_final_amount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-17T17:36:48.766Z",
+        "line": 13,
+        "name": "billing amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on billing page",
+            "match": {
+              "location": "stepdefinitions.billingSteps.user_is_on_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1161200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters billing amount \"500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"500\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.billingSteps.user_enters_billing_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 500900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters tax amount \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.billingSteps.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "stepdefinitions.billingSteps.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it gives the final amount \"520\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"520\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.billingSteps.it_gives_the_final_amount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-17T17:36:48.803Z",
+        "line": 14,
+        "name": "billing amount",
+        "description": "",
+        "id": "calculate-billing-amount;billing-amount;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on billing page",
+            "match": {
+              "location": "stepdefinitions.billingSteps.user_is_on_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters billing amount \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.billingSteps.user_enters_billing_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 659100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters tax amount \"5.5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5.5\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.billingSteps.user_enters_tax_amount(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on calculate button",
+            "match": {
+              "location": "stepdefinitions.billingSteps.user_clicks_on_calculate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 529100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it gives the final amount \"105.5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"105.5\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.billingSteps.it_gives_the_final_amount(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Calculate billing amount",
+    "description": "",
+    "id": "calculate-billing-amount",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/billing.feature",
+    "tags": []
+  }
+]
